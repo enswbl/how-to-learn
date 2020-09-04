@@ -30,16 +30,17 @@
   display: flex;
   align-items: center;
   position: relative;
+
 }
 
 .logo {
   width: 183px;
-  height: 32px;
   background-image: url("/images/logo_place_header.svg");
   background-repeat: no-repeat;
 }
 
 .logo_place_header {
+  height: 32px;
   position: absolute;
   top: 30px;
   left: 64px;
@@ -155,17 +156,17 @@ p.two-columns__paragraph {
 
 }
 
-.section__title {
+.section-title {
+  width: 60%;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-  margin: 100px auto 20px;
   display: flex;
   justify-content: center;
-  width: 60%;
+  margin: 100px auto 20px;
 }
 
-.section__subtitle{
+.section-subtitle{
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -175,7 +176,7 @@ p.two-columns__paragraph {
   width: 60%;
 }
 
-p.section__subtitle {
+p.section-subtitle {
  margin-top: 0;
  margin-bottom: 0;
 }
@@ -186,7 +187,6 @@ p.section__subtitle {
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 100px auto ;
-  /* border: red solid 1px; */
   padding-top: 60px;
 }
 
@@ -215,12 +215,27 @@ p.section__subtitle {
 
 /* START BLOCK FEYNMAN */
 
+.feynman {
+  background-image: url("/images/feynman.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 867px;
+  height: 637px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .feynman__title {
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
   width:648px;
   margin: 100px auto 70px;
+
 }
 
 
@@ -228,13 +243,86 @@ p.section__subtitle {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+
 }
 
 .feynman__link {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  text-decoration: none;
+  color: #000000;
+  margin-top: 50%;
+  margin-right: 48px;
+  position: absolute;
 }
 
 /* END BLOCK FEYNMAN */
 
+
+
+/* START BLOCK FOOTER */
+.footer {
+  min-height: 350px;
+  background-color: #1f1f1f;
+
+}
+
+.footer__columns {
+display: flex;
+width: 90%;
+margin: 60px auto 40px;
+justify-content: space-between;
+}
+
+.footer__column_content_copyright{
+  flex-basis: 711px;
+}
+
+.logo_place_footer {
+  height: 35px;
+  top: 0px;
+  left: 0px;
+
+}
+
+.footer__author {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column_content_info {
+
+}
+
+.footer__column-heading{
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+
+}
+
+.footer__column-links{
+  list-style-type: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #f2f2f2;
+}
+
+.footer__column_content_social {
+
+}
+
+.footer__social-icon{
+  list-style-type: none;
+  color: #f2f2f2;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* END BLOCK FOOTER */
