@@ -2,6 +2,7 @@
 <html lang="ru">
 
 <head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/styles/normalize.css">
   <link rel="stylesheet" href="/styles/style.css">
@@ -10,7 +11,7 @@
 
 <body>
 
-  <div/columns class="page">
+  <div class="page">
 
 
 
@@ -25,6 +26,7 @@
 
 
       <img class="header__main-illustration" src="/images/header-image.png" alt="Картина 'Опять двойка'">
+      <!-- При клонировании репозитория, синего квадрата внутри не было, по этому вставил треугольник -->
       <img class="header__triangle-pic" src="/images/kaufman-triangle.svg" alt="Синий треугольник">
     </header>
 
@@ -68,8 +70,8 @@
 
           <div class="table__cell">
             <h3 class="table__heading">2.1 миллиарда</h3>
-            <p class="table__text">Число нуждающихся в повышении квалификации
-              Всемирный Банк, 2017</p>
+            <p class="table__text">Число нуждающихся в повышении квалификации</p>
+            <p class="table__text">Всемирный Банк, 2017</p>
           </div>
 
           <div class="table__cell">
@@ -84,8 +86,8 @@
 
           <div class="table__cell">
             <h3 class="table__heading">420 миллионов</h3>
-            <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства
-              Всемирный Банк, 2017</p>
+            <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
+              <p class="table__text">Всемирный Банк, 2017</p>
           </div>
 
           <div class="table__cell">
@@ -110,8 +112,8 @@
 
 
       <section class="feynman">
-        <div class="feynman__title">Метод Фейнмана</div>
-        <div class="feynman__subtitle">Выучить и не забыть.</div>
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
         <a href="#" class="feynman__link">Подробнее &rarr;</a>
 
 
@@ -119,8 +121,61 @@
 
 
 
-
       <section class="kaufman">
+      <h2 class="section-title_theme_dark">Принципы обучения</h2>
+      <p class="section-subtitle_theme_dark">от Джоша Кауфмана</p>
+<div class="table table_theme_dark">
+        <div class="table__cell_theme_dark">
+          <h3 class="table__heading_theme_dark">1</h3>
+          <p class="table__text_theme_dark">Выберите привлекательный проект.</p>
+        </div>
+
+        <div class="table__cell_theme_dark">
+          <h3 class="table__heading_theme_dark">2</h3>
+          <p class="table__text_theme_dark">Сосредоточьтесь на каком-то одном навыке.</p>
+        </div>
+
+        <div class="table__cell_theme_dark">
+          <h3 class="table__heading_theme_dark">3</h3>
+          <p class="table__text_theme_dark">Определите целевой уровень мастерства.</p>
+        </div>
+
+        <div class="table__cell_theme_dark">
+          <h3 class="table__heading_theme_dark">4</h3>
+          <p class="table__text_theme_dark">Разбейте навык на элементы.</p>
+        </div>
+
+        <div class="table__cell_theme_dark">
+          <h3 class="table__heading_theme_dark">5</h3>
+          <p class="table__text_theme_dark">Приготовьте всё необходимое для занятий.</p>
+        </div>
+
+        <div class="table__cell_theme_dark">
+          <h3 class="table__heading_theme_dark">6</h3>
+          <p class="table__text_theme_dark">Устраните препятствия для занятий.</p>
+        </div>
+
+        <div class="table__cell_theme_dark">
+          <h3 class="table__heading_theme_dark">7</h3>
+          <p class="table__text_theme_dark">Выделите специальное время для занятий.</p>
+        </div>
+
+        <div class="table__cell_theme_dark">
+          <h3 class="table__heading_theme_dark">8</h3>
+          <p class="table__text_theme_dark">Создайте быстрые петли обратной связи.</p>
+        </div>
+
+        <div class="table__cell_theme_dark">
+          <h3 class="table__heading_theme_dark">9</h3>
+          <p class="table__text_theme_dark">Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
+        </div>
+
+        <div class="table__cell_theme_dark">
+          <h3 class="table__heading_theme_dark">10</h3>
+          <p class="table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
+        </div>
+      </div>
+      <img class="kaufman__tringle" src="/images/kaufman-triangle.svg" alt="Синий треугольник">
       </section>
     </main>
 
@@ -130,17 +185,18 @@
       <div class="footer__columns">
         <div class="footer__column_content_copyright">
           <div class="logo logo_place_footer"></div>
-          <p class="footer__author">&copy; Василий</p>
+          <p class="footer__author">&copy; 2019. Виктор Абанькин</p>
         </div>
         <div class="footer__column_content_info">
 
           <h3 class="footer__column-heading">О Практикуме</h3>
-          <ul class="footer__column-links">
+          <nav class="footer__column-links">
+          <ul >
             <li>Главная</li>
             <li>Концепция</li>
             <li>Наставники</li>
           </ul>
-        </div>
+        </nav>
         <div class="footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
 
