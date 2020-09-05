@@ -27,7 +27,7 @@
 
 .logo_place_header {
   height: 32px;
-  background-image: url("/images/logo_place_header.svg");
+  background-image: url("../images/logo_place_header.svg");
   position: absolute;
   top: 30px;
   left: 64px;
@@ -350,7 +350,7 @@ p.two-columns__paragraph {
 
 .logo_place_footer {
   height: 35px;
-  background-image: url("/images/logo_place_footer.svg");
+  background-image: url("../images/logo_place_footer.svg");
   background-size: contain;
 }
 
