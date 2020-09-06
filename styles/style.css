@@ -41,17 +41,19 @@
   font-weight: bold;
   margin-left: 64px;
   align-self: center;
+  z-index: 3;
 }
 
 .header__subtitle {
-  width: 338px;
+  width: 388px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   position: absolute;
   left: 64px;
   bottom: 30px;
-
+  margin: 0;
+  z-index: 3;
 }
 
 .header__link {
@@ -65,7 +67,7 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 .header__square-pic {
@@ -75,6 +77,7 @@
   position: absolute;
   right: 0;
   top: 64px;
+  z-index: 1;
 }
 
 
@@ -103,9 +106,6 @@
   font-weight: normal;
   color: #2f80ed;
   margin-bottom: auto;
-}
-
-h2.two-columns__brief {
   margin: 0;
 }
 
@@ -125,14 +125,11 @@ h2.two-columns__brief {
 
 .two-columns__paragraph {
   margin-bottom: 30px;
+  margin-top: 0;
 }
 
 .two-columns__paragraph:last-child {
   margin-bottom: 0px;
-}
-
-p.two-columns__paragraph {
-  margin-top: 0;
 }
 
 /* END BLOCK DESCRIPTION */
@@ -159,10 +156,10 @@ p.two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  width: 60%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  width: 60%;
 }
 
 .table {
@@ -264,25 +261,13 @@ p.two-columns__paragraph {
 
 
 .section-title_theme_dark {
-  width: 60%;
   line-height: 69px;
-  font-size: 60px;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
   margin: 0 auto 20px;
   z-index: 1;
   position: relative;
 }
 
 .section-subtitle_theme_dark {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  width: 60%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
   z-index: 1;
   position: relative;
 }
@@ -297,24 +282,17 @@ p.two-columns__paragraph {
 }
 
 .table__heading_theme_dark {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-  margin: 0 0 20px;
   z-index: 1;
   position: relative;
 }
 
 .table__text_theme_dark {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  margin: 20px 0 0;
   z-index: 1;
   position: relative;
 }
 
 .kaufman__tringle {
+  background-image: url("../images/kaufman-triangle.svg");
   position: absolute;
   width: 877px;
   height: 877px;
@@ -335,17 +313,20 @@ p.two-columns__paragraph {
 }
 
 .footer__columns {
-  display: flex;
   width: 90%;
   margin: 60px auto 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column {
+  display: flex;
   justify-content: space-between;
 }
 
 .footer__column_content_copyright {
   flex-basis: 711px;
-  display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .logo_place_footer {
@@ -369,9 +350,6 @@ p.two-columns__paragraph {
   font-weight: bold;
   color: #ffffff;
   margin-bottom: 20px;
-}
-
-h3.footer__column-heading {
   margin-top: 0;
 }
 
@@ -380,18 +358,18 @@ h3.footer__column-heading {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  color: #f2f2f2;
+  padding: 0;
+}
+
+.footer__column-link {
   text-decoration: none;
+  color: #f2f2f2;
 }
 
 .footer__social-icon {
   margin-right: 10px;
   width: 16px;
   height: 16px;
-}
-
-ul.footer__column-links {
-  padding: 0;
 }
 
 /* END BLOCK FOOTER */
