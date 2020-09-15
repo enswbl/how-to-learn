@@ -1,0 +1,91 @@
+.techniques{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cards {
+  width: 920px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto 100px;
+  border: 1px solid red;
+}
+
+.cards__item{
+  display: flex;
+
+  border: 1px solid red;
+
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  margin: 60px 40px 43px;
+}
+
+.cards__title{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cards__description{
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+
+}
+
+
+
+.video {
+  margin: 0 auto;
+}
+
+
+.video__iframes {
+  margin: 0 auto 100px;
+
+}
+
+.video__iframe {
+  margin: 0 auto 100px;
+
+}
+
+/* START BLOCK KHAN */
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.khan__quote {
+  width: 790px;
+  margin: 50px 0 36px;
+}
+
+.khan__quote-author-subline {
+  margin: 10px 68px;
+}
+
+.khan__book-container {
+  width: 620px;
+  height: 608px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* END BLOCK KHAN */
