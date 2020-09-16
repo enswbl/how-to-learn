@@ -53,6 +53,7 @@
 /* START BLOCK VIDEO AND OAKLEY */
 
 @import url(../blocks/content/video/__iframes/video__iframes.css);
+@import url(../blocks/content/video/__iframe/video__iframe.css);
 @import url(../blocks/content/oakley/oakley.css);
 
 /* END BLOCK VIDEO AND OAKLEY */

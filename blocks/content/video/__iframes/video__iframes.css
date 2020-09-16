@@ -3,9 +3,5 @@
   justify-content: center;
   position: relative;
   top:50px;
-}
-
-
-.video__iframe:first-child {
-  padding-right: 20px;
+  left: 0px;
 }
